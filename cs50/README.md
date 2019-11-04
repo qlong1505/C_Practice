@@ -1,4 +1,4 @@
-#Sorting algorithm - C programming code
+# Sorting algorithm - C programming code
 
 The repo provide free example of sort algorithms using C programming languague.
 
