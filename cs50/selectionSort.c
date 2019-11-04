@@ -4,7 +4,7 @@
 
 void SelectionSort(int *array, int arrayLength)
 {
-    int min_index = ReturnMinIndex(array, 0, arrayLength);
+    int min_index = ReturnMinIndex(array, 0, arrayLength - 1);
 
     // for (int i = 0; i < arrayLength; i++)
     int i = 0;
@@ -28,16 +28,18 @@ int main(int argc, char *argv[])
 
     for (int i = 1; i < argc; i++)
     {
-        array[i-1] = atoi(argv[i]);
+        array[i - 1] = atoi(argv[i]);
     }
     printf("Array before: ");
     PrintElements(array, arrayLength);
 
     // printf("Min index is %d\n", ReturnMinIndex(array, 0, arrayLength - 1));
 
-    SelectionSort(array, argc - 1);
+    SelectionSort(array, arrayLength);
 
     printf("Array after: ");
     PrintElements(array, arrayLength);
+
+    free(array);
     // printf("Min index is %d\n", ReturnMinIndex(array, 0, arrayLength - 1));
 }
