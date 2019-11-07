@@ -4,8 +4,8 @@
 
 void ShiftAndInsert(int *array, int unsortIndex, int positionIndex, int arrayLength)
 {
-    
-    int tmp = *(array+unsortIndex);
+
+    int tmp = *(array + unsortIndex);
     // printf("tmp: %d, index: %d\n", tmp, unsortIndex);
     // PrintElements(array, arrayLength);
     // printf("%d, index: %d\n", array[unsortIndex], unsortIndex);
@@ -52,7 +52,7 @@ void InsertionSort(int *array, int arrayLength)
 
 int main(int argc, char *argv[])
 {
-    int *array = (int *)calloc(argc-1, sizeof(int));
+    int *array = (int *)calloc(argc - 1, sizeof(int));
     int arrayLength = argc - 1;
     // printf("argc %d=\n", argc);
     // printf("malloc size %d=\n", (argc - 1) * sizeof(int));

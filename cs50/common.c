@@ -38,5 +38,6 @@ void SwapTwoElements(int *array, int index1, int index2)
         array[index2] ^= array[index1];
         array[index1] ^= array[index2];
     }
+
     // printf("SwapTwoElements::After %d,%d \n", array[index1], array[index2]);
 }

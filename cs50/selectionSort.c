@@ -4,6 +4,7 @@
 
 void SelectionSort(int *array, int arrayLength)
 {
+
     int min_index = ReturnMinIndex(array, 0, arrayLength - 1);
 
     // for (int i = 0; i < arrayLength; i++)
