@@ -1,6 +1,6 @@
 # C_Practice
 
-copy from 
+copy from http://tech-queries.blogspot.com/2011/07/find-if-given-pattern-is-present-in.html
 
 # [PROGRAMMING INTERVIEWS](http://tech-queries.blogspot.com/)
 
